@@ -1,47 +1,94 @@
 <!DOCTYPE html>
-
-<html> 
-
+<html>
 
 <head>
-
-<title>Kristine's Website</title>
-
-
-
+    <title>Kristine's Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--This is where comments go.  link has relationship to this stylesheet 
+         file that holds all of the style code.  Type will always be "text/css" when 
+         working with stylesheets -->
 </head>
-
-
-
+ <main>
 <body>
+    <!-- Add div container and close out the div before body closer-->
+    <div id="container">
+    <header>
+        <h1>Welcome</h1>
+        <nav>
+            <ul>
+                <!-- undordered list
+                <li>This is the number one Hipster</li>
+                <!--list item-->
+                <!-- <li> This is the number 2 Hipster</li>
+                <li>This is the number 3 Hipster</li>
+            </ul>
+            <ol> -->
+                <!--ordered list based on the order you enter
+                <li>La La</li>
+                <li>Beat Beat</li>
+            </ol> --> 
+            <ul>
+                <!--now create list to go across the top of the navigation-->
+                <li> <a href="index.html"> Home page </a> </li>
+                <!-- now need to create pages to link to these titles-->
+                <!--create anchor tag referencing other html files-->
+                <!--The list item 'Home Page' is added within anchor-->
+                <!--Make sure to close anchor-->
+                <li> <a href="aboutus.html"> About Us </a></li>
+                <!--will reference file aboutus.html-->
+                <li> <a href="contactus.html"> Contact Us </a> </li>
+            
+            </ul>
+        </nav>
+    </header>
+    
 
-<header>
 
-    <nav>
+        <section>
+            <h1>My First Heading</h1>
+            <p>My first paragraph.</p>
+            <p>My second paragraph.</p>
+        </section>
+        <section>
+            <h2>My Second Heading</h2>
 
-    </nav>
+            <img src="images/hipster.jpg" alt="hipster man" width="300" height="300">
+            <img src="images/hipsterdog.jpg" alt="hipster dog" width="500" height="300">
+            <img src="images/hipster2.jpg" alt="hipster woman" width="200" height="300">
+            
+            <!--When adding image, use the source path.  Alt tag with be word used when the
+image won't display-->
+            <p>Lorem ipsum dolor amet pitchfork twee mustache, YOLO craft beer biodiesel migas austin meggings.
+                Literally thundercats brunch, poutine godard air plant sustainable tumeric jean shorts shoreditch
+                williamsburg. Yuccie fashion axe scenester, chia pinterest meggings subway tile palo santo tumeric.
+                Single-origin coffee tousled live-edge pitchfork poutine. Stumptown austin shabby chic, single-origin
+                coffee lumbersexual bushwick pop-up ennui try-hard vinyl.
 
-</header>>
+                Oh. You need a little dummy text for your mockup? How quaint.
 
-<main>
-<section>
-
-        <h1>My First Heading</h1>
-        <p>My first paragraph.</p>
-        <p>My second paragraph.</p>
-
-</section>
-
-
-
-</main>
-
-<footer>
+                I bet you’re still using Bootstrap too…</p>
+        </section>
+        <section>
+            <h2>My third Heading</h2>
+            <p>Flannel church-key drinking vinegar, single-origin coffee adaptogen cronut kale chips offal mixtape you
+                probably haven't heard of them schlitz. Cred mumblecore chartreuse, freegan vice umami synth knausgaard
+                meditation whatever man bun typewriter. Leggings beard activated charcoal, twee cardigan distillery
+                keffiyeh migas swag letterpress shaman single-origin coffee sriracha. Coloring book keytar whatever
+                scenester, church-key lo-fi 3 wolf moon.</p>
+        </section>
 
 
+
+    </main>
+    <footer>
+        <ul>
+
+        <li><a href="https://www.facebook.com/NewBoCoK12Education/" ><img src="images/Facebook-icon.jpg" alt="Facebook" width="50" height="50"></a></li>
+        <li><a href="https://twitter.com/ImaginationIowa" ><img src="images/twitter.jpg" alt="Facebook" width="50" height="50" ></a></li>
+            </ul>
     </footer>
 
+</div>
 </body>
 
-</body>
 </html>
